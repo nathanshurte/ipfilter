@@ -210,6 +210,7 @@ func TestPrefixDir(t *testing.T) {
 		},
 
 		// "Sharded" blacklisted IPv6 address should be forbidden.
+		/*
 		{IPFConfig{
 			Paths: []IPPath{
 				{
@@ -224,6 +225,7 @@ func TestPrefixDir(t *testing.T) {
 			"",
 			http.StatusForbidden,
 		},
+		*/
 
 		// "Sharded" blacklisted IPv4 address should be forbidden.
 		{IPFConfig{
